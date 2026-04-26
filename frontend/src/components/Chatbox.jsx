@@ -8,7 +8,6 @@ function Chatbox() {
   const sendMessage = async () => {
     if (!message.trim()) return;
 
-    // ✅ Add user message
     const userMsg = { sender: "user", text: message };
     setChat((prev) => [...prev, userMsg]);
 
@@ -16,16 +15,10 @@ function Chatbox() {
     setLoading(true);
 
     try {
-      // 📦 Get pet profile from localStorage
       const petData = JSON.parse(localStorage.getItem("petProfile")) || {};
 
-      // 🌐 API call
-<<<<<<< HEAD
-      const res = await fetch("https://pet-health-checker45.onrender.com/api/chat", {
-=======
-      // const res = await fetch("http://127.0.0.1:8000/api/chat", {
-       const res = await fetch("https://pet-health-checker45.onrender.com/chat", {
->>>>>>> 1d5181f5b50bd3d78c3b3670e6435874574100fd
+      // ✅ FINAL CORRECT API
+      const res = await fetch("https://pet-health-checker45.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -40,21 +33,17 @@ function Chatbox() {
         })
       });
 
-      // ❗ Handle backend errors
       if (!res.ok) {
         const errText = await res.text();
         throw new Error(errText);
       }
 
       const data = await res.json();
-
-      // ✅ Correct response key
       let text = data.result || "No response from AI";
 
       let i = 0;
       let temp = "";
 
-      // ⌨️ Typing animation
       const interval = setInterval(() => {
         temp += text[i];
 
@@ -97,9 +86,7 @@ function Chatbox() {
         💬 Chat with AI
       </h2>
 
-      {/* CHAT WINDOW */}
       <div className="h-64 overflow-y-auto border p-3 mb-4 rounded-lg bg-gray-50">
-
         {chat.map((msg, i) => (
           <div key={i} className="mb-2">
             <b>{msg.sender === "user" ? "You" : "AI"}:</b> {msg.text}
@@ -111,10 +98,8 @@ function Chatbox() {
             AI is typing...
           </p>
         )}
-
       </div>
 
-      {/* INPUT */}
       <div className="flex gap-2">
         <input
           type="text"
