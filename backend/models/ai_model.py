@@ -23,17 +23,12 @@ def analyze_pet(data):
 
         print("🚀 Sending request to Mistral...")
 
-<<<<<<< HEAD
+        # ✅ FINAL WORKING VERSION
         response = client.chat.complete(
             model="mistral-small-latest",
             messages=[
                 {"role": "user", "content": prompt}
             ]
-=======
-        response = client.chat(
-            model="mistral-small",
-            messages=[{"role": "user", "content": prompt}]
->>>>>>> 1d5181f5b50bd3d78c3b3670e6435874574100fd
         )
 
         result = response.choices[0].message.content
