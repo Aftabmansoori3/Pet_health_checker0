@@ -1,0 +1,37 @@
+[
+  {
+    "pet_type": "dog",
+    "symptoms": "lazy, not eating",
+    "temperature": 40,
+    "heart_rate": 130,
+    "result": "Fever or infection"
+  },
+  {
+    "pet_type": "dog",
+    "symptoms": "active, normal eating",
+    "temperature": 38,
+    "heart_rate": 90,
+    "result": "Healthy"
+  },
+  {
+    "pet_type": "cat",
+    "symptoms": "sleeping a lot",
+    "temperature": 39.8,
+    "heart_rate": 200,
+    "result": "Possible fever"
+  },
+  {
+    "pet_type": "dog",
+    "symptoms": "low activity, weak",
+    "temperature": 37,
+    "heart_rate": 70,
+    "result": "Weakness or fatigue"
+  },
+  {
+    "pet_type": "cat",
+    "symptoms": "fast breathing",
+    "temperature": 39,
+    "heart_rate": 220,
+    "result": "Stress or respiratory issue"
+  }
+]

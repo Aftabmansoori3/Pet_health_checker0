@@ -1,0 +1,190 @@
+[
+    {
+        "pet_type": "dog",
+        "symptoms": "skin infection",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Allergies (food, pollen, fleas)\n- Dirty or wet skin\n- Bug bites or scratches\n- Weak immune system\n\n**Symptoms Meaning:**\n- Red, itchy skin\n- Bumps or rashes\n- Hair loss in patches\n- Bad smell from skin\n\n**Advice:**\n- Wash skin with mild soap and water\n- Keep skin dry and clean\n- Give healthy food (no scraps)\n- Check for fleas or ticks\n\n**When to Visit Vet:**\n- Skin gets worse or spreads\n- Pain or bleeding on skin\n- No improvement in 3 days\n- Dog keeps scratching a lot"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "vomiting",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Ate something bad (like trash or spoiled food)\n- Sudden diet change\n- Stomach infection\n- Too much exercise after eating\n\n**Symptoms Meaning:**\n- Body trying to clear bad stuff\n- May feel sick or have tummy pain\n- Could lead to dehydration if it keeps happening\n\n**Advice:**\n- Give small sips of water (not too much at once)\n- Skip food for 12 hours, then try bland food (boiled chicken + rice)\n- Keep Shero calm and quiet\n- Watch for other signs like diarrhea or weakness\n\n**When to Visit Vet:**\n- Vomiting lasts more than 24 hours\n- Blood in vomit or poop\n- Not drinking water\n- Seems very tired or weak"
+    },
+    {
+        "pet_type": "dog ",
+        "symptoms": "high temperature ",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Hot weather or too much sun\n- Infection (like fever)\n- Pain or sickness\n- Too much exercise\n\n**Symptoms Meaning:**\n- Body feels hotter than usual\n- May be tired or weak\n- Might not want to eat\n- Could pant a lot\n\n**Advice:**\n- Give cool water to drink\n- Keep in a shady, cool place\n- Check if panting stops after rest\n- Do not give human medicines\n\n**When to Visit Vet:**\n- Temperature stays high for hours\n- Not eating or drinking\n- Acting very weak or confused\n- Panting does not stop"
+    },
+    {
+        "pet_type": "dog ",
+        "symptoms": "heart beat fast ",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Scared or excited\n- Pain or sickness\n- Too hot or tired\n- Something scary happened\n\n**Symptoms Meaning:**\n- Heart beats too fast for no reason\n- May feel weak or pant a lot\n- Could be scared or in pain\n\n**Advice:**\n- Keep Priya calm and quiet\n- Give water if she wants it\n- Check if she is hurt or scared\n- Let her rest in a cool place\n\n**When to Visit Vet:**\n- Fast heartbeat lasts more than 1 hour\n- She acts very weak or won\u2019t eat\n- Breathing is hard or fast\n- You see other strange signs"
+    },
+    {
+        "pet_type": "string",
+        "symptoms": "string",
+        "heart_rate": "120",
+        "temperature": "46",
+        "activity": "active",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Too cold outside or inside\n- Sick (like infection or fever)\n- Scared or stressed\n- Bad reaction to medicine\n\n**Symptoms Meaning:**\n- Body is too cold (normal is ~38-39\u00b0C)\n- Heart is beating fast\n- Pet may feel weak or shivery\n\n**Advice:**\n- Warm pet with blankets or warm water bottle (not hot!)\n- Check for other signs like coughing or not eating\n- Keep pet calm and quiet\n- Offer warm water to drink\n\n**When to Visit Vet:**\n- If temp stays low after warming\n- If pet acts very weak or won\u2019t move\n- If other symptoms appear (vomiting, diarrhea)\n- If unsure or worried"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "fever",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Infection (like a cold or flu)\n- Too much sun or heat\n- Pain or sickness inside the body\n\n**Symptoms Meaning:**\n- Body feels hotter than usual\n- May feel tired or weak\n- Might not eat well\n\n**Advice:**\n- Give fresh water to drink\n- Keep pet in a cool, shady place\n- Check temperature with a pet thermometer (normal: 101-102.5\u00b0F)\n\n**When to Visit Vet:**\n- Fever lasts more than 24 hours\n- Pet is not drinking water\n- Shows other signs like vomiting or shaking"
+    },
+    {
+        "pet_type": "dog ",
+        "symptoms": "lazy and not responding",
+        "heart_rate": "170",
+        "temperature": "102",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Sick (like infection or fever)\n- Pain (from hurt or illness)\n- Tired (from too much play or stress)\n- Low energy (from not eating well)\n\n**Symptoms Meaning:**\n- Lazy = not moving much\n- Not responding = ignores you or calls\n- High heart rate = body working too hard\n- Fever = body too hot\n\n**Advice:**\n- Check if Bruno ate today\n- Give water to drink\n- Let him rest in quiet place\n- Watch for other signs (cough, vomit)\n\n**When to Visit Vet:**\n- If lazy lasts more than 1 day\n- If won\u2019t eat or drink\n- If fever stays high\n- If breathing is fast or hard"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "lazy and not responding ",
+        "heart_rate": "180",
+        "temperature": "104",
+        "activity": "resting",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Fever (high temperature)\n- Pain or infection\n- Stress or anxiety\n- Heart or breathing problem\n\n**Symptoms Meaning:**\n- High heart rate (180) + high temp (104) = possible fever/infection\n- Low activity + not responding = weakness or pain\n\n**Advice:**\n- Give water (if drinking)\n- Keep cool (fever)\n- Rest in quiet place\n- Monitor closely\n\n**When to Visit Vet:**\n- If temp stays high or gets worse\n- If Bruno stops eating/drinking\n- If he seems worse in 2\u20134 hours"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "lethargy",
+        "heart_rate": "190",
+        "temperature": "100",
+        "activity": "lazy and not moving ",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Pain or injury\n- Fever or infection\n- Stress or anxiety\n- Heart problem\n\n**Symptoms Meaning:**\n- Lethargy = extreme tiredness\n- High heart rate = possible pain or stress\n- Low activity = weakness or illness\n\n**Advice:**\n- Keep pet calm and warm\n- Offer water (if drinking)\n- Check for injuries or pain\n\n**When to Visit Vet:**\n- If symptoms last more than 24 hours\n- If pet stops eating/drinking\n- If heart rate stays high or worsens"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "lazyness",
+        "heart_rate": "190",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Pain or injury (e.g., joint pain, internal issue)\n- Stress or anxiety (e.g., new environment, loud noises)\n- Fever (if temperature is high)\n- Heart problem (if heart rate stays high)\n\n**Symptoms Meaning:**\n- Laziness could mean weakness, pain, or illness.\n- High heart rate (190) may indicate stress, pain, or fever.\n\n**Advice:**\n- Check temperature (normal: 38\u201339\u00b0C / 101\u2013102\u00b0F).\n- Monitor for other signs (vomiting, limping, panting).\n- Keep Shero calm and hydrated.\n- Avoid strenuous activity.\n\n**When to Visit Vet:**\n- If heart rate stays high (>180) or temperature is abnormal.\n- If laziness lasts more than 24 hours or worsens.\n- If Shero refuses food/water or shows other symptoms."
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "loss of appetite",
+        "heart_rate": "115",
+        "temperature": "103",
+        "activity": "low/lethargic",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Fever (high temperature)\n- Infection or illness\n- Pain or discomfort\n- Stress or anxiety\n\n**Symptoms Meaning:**\n- **Temperature 103\u00b0F** \u2192 Fever (normal dog temp: 101-102.5\u00b0F)\n- **Low activity/lethargic** \u2192 Weakness or illness\n- **Loss of appetite** \u2192 Possible pain, infection, or digestive issue\n\n**Advice:**\n- Offer water to prevent dehydration\n- Monitor for vomiting/diarrhea\n- Keep Shero in a cool, quiet place\n- Check gums (pale or red may indicate trouble)\n\n**When to Visit Vet:**\n- If fever lasts **>24 hours**\n- If appetite doesn\u2019t return in **1-2 days**\n- If lethargy worsens or other symptoms appear (vomiting, coughing)"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "none",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "possible skin infection or irritation",
+        "result": "**Possible Causes:**\n- Skin infection (bacteria/fungus)\n- Allergic reaction (food/environment)\n- Bug bite or irritation\n\n**Symptoms Meaning:**\n- Red, itchy, or inflamed skin\n- Possible scratching or licking\n\n**Advice:**\n- Keep area clean & dry\n- Use pet-safe antiseptic wipes\n- Monitor for worsening signs\n\n**When to Visit Vet:**\n- If redness/swelling spreads\n- If pet keeps scratching excessively\n- If signs last beyond 2 days"
+    },
+    {
+        "pet_type": "cat",
+        "symptoms": "Rapid, shallow breathing , vomiting",
+        "heart_rate": "240",
+        "temperature": "105.5",
+        "activity": "very low(hiding , unresponsive)",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- **Fever** (very high temperature)\n- **Severe pain or stress** (extremely high heart rate)\n- **Infection or illness** (vomiting + hiding)\n\n**Symptoms Meaning:**\n- **Heart rate 240** \u2192 Extreme stress/pain (normal cat: 140\u2013220)\n- **Temperature 105.5\u00b0F** \u2192 Life-threatening fever (normal: 100\u2013102.5\u00b0F)\n- **Very low activity** \u2192 Extreme weakness or illness\n\n**Advice:**\n- **Cool Shero** (wet towel, fan, cool room)\n- **Offer water** (small sips to avoid vomiting)\n- **Keep calm & quiet** (no stress)\n- **Monitor closely** (check for seizures or collapse)\n\n**When to Visit Vet:**\n- **Immediately** (fever + high heart rate = emergency)\n- If vomiting/diarrhea continues\n- If Shero stops drinking water",
+        "date": "2026-04-16 23:08:41.753763"
+    },
+    {
+        "pet_type": "Dog",
+        "symptoms": "excessive drooling ",
+        "heart_rate": "140",
+        "temperature": "104",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- Fever (high temperature)\n- Infection or illness\n- Pain or discomfort\n- Stress or anxiety\n\n**Symptoms Meaning:**\n- **Temperature 104\u00b0F** \u2192 High fever (normal dog temp: 101-102.5\u00b0F)\n- **Heart rate 140** \u2192 Stress or pain (normal dog: 60-140)\n- **Excessive drooling** \u2192 Possible nausea or pain\n\n**Advice:**\n- Offer cool water (small sips if drooling)\n- Keep Shero in a cool, quiet place\n- Check gums (pale/red may indicate trouble)\n- Monitor for vomiting or diarrhea\n\n**When to Visit Vet:**\n- If fever lasts **>24 hours**\n- If drooling worsens or other symptoms appear\n- If Shero stops drinking water",
+        "date": "2026-04-17 11:04:32.777891"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "bloated",
+        "heart_rate": "160",
+        "temperature": "103",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- **Bloat (GDV - Gastric Dilatation Volvulus)** \u2013 Life-threatening emergency in Labs\n- **Severe infection or illness** (e.g., heatstroke, pancreatitis)\n- **Internal injury or blockage** (vomiting, bloating)\n\n**Symptoms Meaning:**\n- **High temp (103\u00b0F)** \u2192 Fever or heatstroke\n- **High heart rate (160)** \u2192 Pain, stress, or shock\n- **Bloating** \u2192 Possible stomach twist (GDV)\n\n**Advice:**\n- **Keep Shero calm & quiet** \u2013 No food/water\n- **Check gums** \u2013 Pale/blue = emergency\n- **Monitor closely** \u2013 Watch for vomiting, collapse\n\n**When to Visit Vet:**\n- **Immediately** \u2013 Bloating + high heart rate = **EMERGENCY**\n- If gums turn pale/blue\n- If Shero collapses or stops breathing",
+        "date": "2026-04-17 11:12:13.944951"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "none",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "possible skin infection or irritation",
+        "result": "**Possible Causes:**\n- Skin infection or irritation (from image analysis)\n- Allergies or contact dermatitis (common in Labs)\n- Minor wound or bug bite\n\n**Symptoms Meaning:**\n- Skin issue (redness, itching, or rash)\n\n**Advice:**\n- Check Shero\u2019s skin daily for changes\n- Keep area clean (mild soap, water)\n- Avoid scratching (use cone if needed)\n\n**When to Visit Vet:**\n- If redness/swelling worsens\n- If Shero scratches excessively\n- If signs of pain (whining, hiding) appear",
+        "date": "2026-04-17 11:13:30.514344"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "lazyness",
+        "heart_rate": "170",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- **Fever or infection** (high heart rate + laziness)\n- **Pain or discomfort** (stress-related)\n- **Dehydration or weakness** (low activity)\n\n**Symptoms Meaning:**\n- **Heart rate 170** \u2192 High (normal: 60-140) \u2192 Stress/pain\n- **Laziness** \u2192 Possible fever, pain, or illness\n\n**Advice:**\n- Offer cool water (small sips)\n- Keep Shero in a cool, quiet place\n- Monitor for vomiting, diarrhea, or collapse\n\n**When to Visit Vet:**\n- If fever lasts **>24 hours**\n- If laziness worsens or other symptoms appear\n- If Shero stops drinking/eating",
+        "date": "2026-04-17 11:30:34.111873"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "none",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "",
+        "image_analysis": "possible skin infection or irritation",
+        "result": "**Possible Causes:**\n- Skin infection or irritation (from image)\n- Allergies or bug bites\n- Minor wound or dry skin\n\n**Symptoms Meaning:**\n- Skin redness/itching (possible infection)\n\n**Advice:**\n- Check Shero\u2019s skin daily\n- Clean area gently with mild soap\n- Prevent scratching (use cone if needed)\n\n**When to Visit Vet:**\n- If redness/swelling worsens\n- If Shero scratches constantly\n- If signs of pain (whining, hiding) appear",
+        "date": "2026-04-17 11:31:27.911346"
+    },
+    {
+        "pet_type": "dog",
+        "symptoms": "none",
+        "heart_rate": "",
+        "temperature": "",
+        "activity": "lazzyness",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- **Fever or infection** (high heart rate + laziness)\n- **Pain or discomfort** (stress-related)\n- **Dehydration or weakness** (low activity)\n\n**Symptoms Meaning:**\n- **Heart rate 170** \u2192 High (normal: 60-140) \u2192 Stress/pain\n- **Laziness** \u2192 Possible fever, pain, or illness\n\n**Advice:**\n- Offer cool water (small sips)\n- Keep Shero in a cool, quiet place\n- Monitor for vomiting, diarrhea, or collapse\n\n**When to Visit Vet:**\n- If fever lasts **>24 hours**\n- If laziness worsens or other symptoms appear\n- If Shero stops drinking/eating",
+        "date": "2026-04-17 11:34:22.813473"
+    },
+    {
+        "pet_type": "Dog",
+        "symptoms": "lethargy",
+        "heart_rate": "170",
+        "temperature": "103",
+        "activity": "",
+        "image_analysis": "",
+        "result": "**Possible Causes:**\n- **Fever or infection** (high temp + lethargy)\n- **Pain or stress** (high heart rate)\n- **Dehydration/weakness** (low activity)\n\n**Symptoms Meaning:**\n- **Temp 103\u00b0F** \u2192 High (normal: 101-102.5\u00b0F) \u2192 Fever\n- **Heart rate 170** \u2192 High (normal: 60-140) \u2192 Stress/pain\n- **Lethargy** \u2192 Possible illness or discomfort\n\n**Advice:**\n- Offer cool water (small sips)\n- Keep Shero in a cool, quiet place\n- Monitor for vomiting, diarrhea, or collapse\n\n**When to Visit Vet:**\n- If fever lasts **>24 hours**\n- If lethargy worsens or Shero stops eating/drinking\n- If other symptoms (vomiting, collapse) appear",
+        "date": "2026-04-17 16:44:01.212755"
+    }
+]
