@@ -20,7 +20,12 @@ function Chatbox() {
       const petData = JSON.parse(localStorage.getItem("petProfile")) || {};
 
       // 🌐 API call
+<<<<<<< HEAD
       const res = await fetch("https://pet-health-checker45.onrender.com/api/chat", {
+=======
+      // const res = await fetch("http://127.0.0.1:8000/api/chat", {
+       const res = await fetch("https://pet-health-checker45.onrender.com/chat", {
+>>>>>>> 1d5181f5b50bd3d78c3b3670e6435874574100fd
         method: "POST",
         headers: {
           "Content-Type": "application/json"
