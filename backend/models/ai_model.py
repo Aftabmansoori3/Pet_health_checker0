@@ -1,12 +1,12 @@
 import os
 from dotenv import load_dotenv
-from mistralai.client import MistralClient
+from mistralai import Mistral
 
 load_dotenv()
 
 api_key = os.getenv("MISTRAL_API_KEY")
 
-client = MistralClient(api_key=api_key)
+client = Mistral(api_key=api_key)
 
 
 def analyze_pet(data):
@@ -58,7 +58,7 @@ When to visit vet:
         # 🚀 Call Mistral API
         print("🚀 Sending request to Mistral...")
 
-        response = client.chat(
+        response = client.chat.complete(
             model="mistral-small-latest",
             messages=[
                 {"role": "user", "content": prompt}
