@@ -1,13 +1,10 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://pet-health-checker45.onrender.com",
 });
 
-// ✅ FIXED
-export const analyzePet = (data) => API.post("/api/analyze/", data);
+export const analyzePet = (data) => API.post("/analyze", data);
+export const getHistory = () => API.get("/history");
 
-// (optional fix for history too)
-//export const getHistory = () => API.get("/api/history/");
-export const getHistory = () => API.get("/api/history/");
 export default API;
