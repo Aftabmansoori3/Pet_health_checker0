@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from routes import analyze
-from routes import chat
-from routes import history
+from backend.routes import analyze
+from backend.routes import chat
+from backend.routes import history
 
 app = FastAPI()
 
