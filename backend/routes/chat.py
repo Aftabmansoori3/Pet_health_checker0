@@ -28,7 +28,7 @@ Breathing Rate: {req.breathing_rate or "Not provided"}
 Activity Level: {req.activity_level or "Not provided"}
 """
 
-        # 🧠 STRONG STRUCTURED PROMPT
+        # 🧠 Prompt
         prompt = f"""
 You are a smart veterinary assistant.
 
@@ -43,7 +43,6 @@ IMPORTANT:
 - ONLY bullet points
 - Maximum 4 points per section
 - DO NOT write paragraphs
-- STRICTLY follow format
 
 FORMAT:
 
@@ -60,14 +59,17 @@ When to Visit Vet:
 - ...
 """
 
-        # 🤖 AI call
-        response = client.chat(
-    model="mistral-small",   # ✅ FIXED
-    messages=[
-        {"role": "system", "content": "You are a veterinary assistant who always follows structured format strictly."},
-        {"role": "user", "content": prompt}
-    ]
-)
+        # ✅ NEW SDK CALL
+        response = client.chat.complete(
+            model="mistral-small-latest",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a veterinary assistant who follows structured format strictly."
+                },
+                {"role": "user", "content": prompt}
+            ]
+        )
 
         reply = response.choices[0].message.content
 
@@ -77,7 +79,6 @@ When to Visit Vet:
 
     except Exception as e:
         print("CHAT ERROR:", e)
-
         return {
             "result": f"❌ Error: {str(e)}"
         }
