@@ -62,12 +62,12 @@ When to Visit Vet:
 
         # 🤖 AI call
         response = client.chat(
-            model="mistral-small-latest",
-            messages=[
-                {"role": "system", "content": "You are a veterinary assistant who always follows structured format strictly."},
-                {"role": "user", "content": prompt}
-            ]
-        )
+    model="mistral-small",   # ✅ FIXED
+    messages=[
+        {"role": "system", "content": "You are a veterinary assistant who always follows structured format strictly."},
+        {"role": "user", "content": prompt}
+    ]
+)
 
         reply = response.choices[0].message.content
 
